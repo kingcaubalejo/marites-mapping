@@ -6,6 +6,7 @@ import Section from "@components/Section";
 import Container from "@components/Container";
 import Map from "@components/Map";
 import Button from "@components/Button";
+import Typing from "@components/Typing"
 // import Location from "@components/Location";
 
 import styles from "@styles/Home.module.scss";
@@ -33,19 +34,15 @@ export default function Home() {
 
       <Section>
         <Container>
-          <h1 className={styles.title}>
-            Marites Locator
-            <p className={styles.description}>
-              Your global guide to your journey and keep you away from Marites.
-            </p>
-          </h1>
-
+          <p>
+            <Typing />
+          </p>
           <Map
             className={styles.homeMap}
             width="1200"
             height="800"
             center={DEFAULT_CENTER}
-            zoom={20}
+            zoom={15}
           >
             {({ TileLayer, Marker, Popup }) => (
               <>
