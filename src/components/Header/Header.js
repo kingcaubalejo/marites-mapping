@@ -9,9 +9,9 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <Container className={styles.headerContainer}>
-        <img src="" className={styles.headerLogo} />
+        <img src={"./images/logo.png"} className={styles.headerLogo} />
         <p className={styles.headerTitle}>
-          <Link href="/">Marites Locator - Alpha v1.0</Link>
+          <Link href="/">Marites Mapping</Link>
         </p>
         <ul className={styles.headerLinks}>
           <li>
