@@ -3,7 +3,7 @@
 Jumpstart your new Next.js mapping project with Leaflet!
 
 ## ⚡ Quick Deploy
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/colbyfayock/next-leaflet-starter) [![Deploy with Vercel Now](https://zeit.co/button)](https://vercel.com/import/project?template=https://github.com/colbyfayock/next-leaflet-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kingcaubalejo/marites-mapping) [![Deploy with Vercel Now](https://zeit.co/button)](https://vercel.com/import/project?template=https://github.com/kingcaubalejo/marites-mapping)
 
 
 ## 🧰 What This Includes
@@ -19,9 +19,9 @@ Jumpstart your new Next.js mapping project with Leaflet!
 
 ### Quick Start
 ```
-yarn create next-app -e https://github.com/colbyfayock/next-leaflet-starter
+yarn create next-app -e https://github.com/kingcaubalejo/marites-mapping
 # or
-npm run create-next-app -e https://github.com/colbyfayock/next-leaflet-starter
+npm run create-next-app -e https://github.com/kingcaubalejo/marites-mapping
 ```
 
 ### Running the Project
